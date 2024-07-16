@@ -9,3 +9,6 @@ steps:
     args: ["apply", "-f", "service.yaml"]
 images:
   - "gcr.io/$PROJECT_ID/flask-app"
+
+  options:
+    logging: NONE
